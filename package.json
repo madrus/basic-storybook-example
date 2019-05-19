@@ -1,23 +1,26 @@
 {
-  "name": "basic-storybook-example",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "@kadira/storybook": "^2.35.3",
-    "@kadira/storyshots": "^2.1.0",
-    "react-scripts": "0.9.5"
-  },
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
-    "test-storybook": "storyshots"
-  }
+	"name": "basic-storybook-example",
+	"version": "0.1.0",
+	"private": true,
+	"devDependencies": {
+		"@storybook/addon-actions": "^5.0.11",
+		"@storybook/addon-links": "^5.0.11",
+		"@storybook/addon-storyshots": "^5.0.11",
+		"@storybook/react": "^5.0.11",
+		"prop-types": "^15.7.2",
+		"react-scripts": "3.0.1",
+		"react-test-renderer": "^16.8.6"
+	},
+	"dependencies": {
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"storybook": "start-storybook -p 9009 -s public",
+		"build-storybook": "build-storybook -s public"
+	}
 }
